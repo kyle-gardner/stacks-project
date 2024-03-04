@@ -79,13 +79,25 @@ public class StackWork {
 	// elements of the stack S1, and in the end
 	// the elements of the Stack S2.
 	public void displayStackData() {
-		// Implement me.
+		System.out.println("S0 data:");
+		for (int i : S0) {
+			System.out.println(i);
+		}
+		
+		System.out.println("\nS1 data:");
+		for (int i : S1) {
+			System.out.println(i);
+		}
+
+		System.out.println("\nS2 data:");
+		for (int i : S2) {
+			System.out.println(i);
+		}
 	}
 
 	// Precondition: The StackWork object exists.
 	// Postcondition: The instance variable S0top is returned.
 	public int getS0top() {
-		// Implement me.
+		return S0top;
 	}
-
 }
