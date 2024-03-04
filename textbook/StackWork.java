@@ -1,4 +1,4 @@
-// package textbook;
+package textbook;
 
 public class StackWork {
 	private int[] S0;

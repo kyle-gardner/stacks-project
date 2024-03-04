@@ -3,7 +3,7 @@ import textbook.StackWork;
 public class packetSelector {
 	
 	// Define packets, and initialize it to null.
-	
+	static StackWork packets = null;
 	public static void main(String[] args) {
 		
 		System.out.println("Packet selector is now running...\n");
@@ -36,7 +36,6 @@ public class packetSelector {
         // The argument flg is flipped. In other words, if the caller passes 1, flg is set to 0. Similarly, if the caller passes 0, flg is set to 1. No further action is taken on flg. 
 	public static void reorganizeNetworkTraffic(int flg)   
 	{
-	   // Implement me. 
 	} 
 	
 }       
